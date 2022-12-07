@@ -11,6 +11,7 @@ import NotificationList from './chapter_06/NotificationList';
 import Accomodate from './chapter_07/Accommodate';
 import ConfirmButton from './chapter_08/ConfirmButton';
 import Login from './chapter_09/Login';
+import AttendanceBook from './chapter_10/AttendanceBook';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,7 +22,8 @@ root.render(
     {/* <NotificationList /> */}
     {/* <Accomodate /> */}
     {/* <ConfirmButton /> */}
-    <Login />
+    {/* <Login /> */}
+    <AttendanceBook />
   </React.StrictMode>
 );
 
